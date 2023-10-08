@@ -7,7 +7,7 @@ class Page {
 
   draw() {
     return `
-      <a href="#" class="flex gap-1 text-xl hover:text-gray-500 transition-colors" onclick="changePage('${this.contentId}');">
+      <a href="#" class="flex gap-1 text-xl hover:text-gray-500 transition-colors items-center" onclick="changePage('${this.contentId}');">
         <i data-lucide="${this.icon}"></i>
         ${this.label}
       </a>

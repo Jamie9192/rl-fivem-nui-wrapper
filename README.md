@@ -22,6 +22,7 @@
 <h2>To Add:</h2>
 <ul>
   <li>add colors control in config.js (primary color, secondary color, text color, ...)</li>
+  <li>add some basic pre-made components like tables, titles, subtitles (everything owning your defined colors)</li>
 </ul>
 <p>Please add in issues tab whatever you would like to see on our wrapper, we'll be updating this asap</p>
 

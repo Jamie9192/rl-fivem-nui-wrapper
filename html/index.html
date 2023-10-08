@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <title>rl-fivem-nui-wrapper</title>
+</head>
+<body class="grid place-items-center h-screen w-screen text-white">
+  <div class="w-3/4 h-3/4 bg-neutral-800 rounded-xl overflow-hidden flex p-4 gap-4 hidden" id="rl-fivem-nui-wrapper">
+    <aside class="bg-neutral-900 rounded-xl p-4 flex flex-col items-center">
+      <img
+        src="https://res.cloudinary.com/practicaldev/image/fetch/s--6ebjy0LI--/c_imagga_scale,f_auto,fl_progressive,h_1080,q_auto,w_1080/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/dxy1c2bvl6odeo52dodk.jpg"
+        class="w-24 rounded-full pb-4"
+      >
+
+      <nav class="flex flex-col gap-3" id="navbar"></nav>
+    </aside>
+
+    <!-- PAGE HOME -->
+    <div class="bg-neutral-900 flex-1 rounded-xl p-4 hidden" id="home">
+      HOME CONTENTTTTTTTT
+      <button onclick="invokeNuiCallback('ping', { name: 'pong' })">Invoke NUI Callback Test</button>
+    </div>
+
+    <!-- PAGE ANOTHER -->
+    <div class="bg-neutral-900 flex-1 rounded-xl p-4 hidden" id="another">
+      ANOTHER CONTENTTTTTTTT
+    </div>
+
+    <!-- PAGE ONE MORE -->
+    <div class="bg-neutral-900 flex-1 rounded-xl p-4 hidden" id="onemore">
+      ONE MORE CONTENTTTTTTTTTTTT
+    </div>
+  </div>
+
+  <script src="core/models.js"></script>
+  <script src="config.js"></script>
+  <script src="core/functions.js"></script>
+  <script src="core/main.js"></script>
+
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
